@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+    <!--<NoBindingEmbedding>false</NoBindingEmbedding>-->
+
+    <!--
+      Enable trim analyzers for class libraries.
+      To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/prepare-libraries-for-trimming
+    -->
+    <IsTrimmable>true</IsTrimmable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    
+    <ObjcBindingApiDefinition Include="AgoraMediaFilterEventDelegate.cs" />
+
+    <ObjcBindingApiDefinition Include="AgoraRtcEngineDelegate.cs" />
+    
+    <ObjcBindingApiDefinition Include="AgoraRtcEngineKit.cs" />
+    
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <NativeReference Include="..\libs\AgoraRtcKit.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks></Frameworks>
+    </NativeReference>
+    <NativeReference Include="..\libs\aosl.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks></Frameworks>
+    </NativeReference>
+    <NativeReference Include="..\libs\AgoraAiEchoCancellationExtension.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks></Frameworks>
+    </NativeReference>
+    <NativeReference Include="..\libs\AgoraAiNoiseSuppressionExtension.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks></Frameworks>
+    </NativeReference>
+    <NativeReference Include="..\libs\AgoraAudioBeautyExtension.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks></Frameworks>
+    </NativeReference>
+    <NativeReference Include="..\libs\Agorafdkaac.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks></Frameworks>
+    </NativeReference>
+    <NativeReference Include="..\libs\Agoraffmpeg.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks></Frameworks>
+    </NativeReference>
+    <NativeReference Include="..\libs\AgoraLipSyncExtension.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks></Frameworks>
+    </NativeReference>
+    <NativeReference Include="..\libs\AgoraSoundTouch.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks></Frameworks>
+    </NativeReference>
+    <NativeReference Include="..\libs\AgoraSpatialAudioExtension.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks></Frameworks>
+    </NativeReference>
+  </ItemGroup>
+</Project>

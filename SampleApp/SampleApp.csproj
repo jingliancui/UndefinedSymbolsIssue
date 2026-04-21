@@ -71,15 +71,16 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="$(TargetFramework.Contains('ios'))">
-		<!--<ProjectReference Include="..\4.6.2\AgoraRtcKitBinding\AgoraRtcKitBinding.csproj" />-->
+		<ProjectReference Include="..\AgoraRtcKitBinding\AgoraRtcKitBinding.csproj" />
+		<!--
 		<Reference Include="AgoraRtcKitBinding">
     		<HintPath>AgoraRtcKitBinding.dll</HintPath>
-  		</Reference>
+  		</Reference>-->
     </ItemGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net10.0-ios|AnyCPU'">
 	  <MtouchLink>None</MtouchLink>	  
-	  <MtouchExtraArgs>-gcc_flags "-lstdc++ -framework AdSupport -framework AVFoundation -framework Accelerate -framework CFNetwork -framework CoreGraphics -framework CoreImage -framework CoreMedia -framework CoreVideo -framework QuartzCore -framework Security -ObjC""</MtouchExtraArgs>
+	  <MtouchExtraArgs>-v -v -v -v-gcc_flags "-lstdc++ -framework AdSupport -framework AVFoundation -framework Accelerate -framework CFNetwork -framework CoreGraphics -framework CoreImage -framework CoreMedia -framework CoreVideo -framework QuartzCore -framework Security -ObjC""</MtouchExtraArgs>
 	</PropertyGroup>
 
 </Project>
