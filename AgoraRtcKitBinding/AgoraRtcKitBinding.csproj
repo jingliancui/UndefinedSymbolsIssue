@@ -67,5 +67,13 @@
       <Kind>Framework</Kind>
       <Frameworks></Frameworks>
     </NativeReference>
+    <NativeReference Include="..\libs\AgoraAiEchoCancellationLLExtension.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks></Frameworks>
+    </NativeReference>
+    <NativeReference Include="..\libs\AgoraAiNoiseSuppressionLLExtension.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks></Frameworks>
+    </NativeReference>
   </ItemGroup>
 </Project>

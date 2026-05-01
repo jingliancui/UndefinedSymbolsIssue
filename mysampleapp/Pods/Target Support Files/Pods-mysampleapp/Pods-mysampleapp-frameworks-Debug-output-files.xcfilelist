@@ -1,0 +1,12 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraAiEchoCancellationExtension.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraAiEchoCancellationLLExtension.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraAiNoiseSuppressionExtension.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraAiNoiseSuppressionLLExtension.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraAudioBeautyExtension.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraLipSyncExtension.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraRtcKit.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agorafdkaac.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agoraffmpeg.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraSoundTouch.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraSpatialAudioExtension.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/aosl.framework

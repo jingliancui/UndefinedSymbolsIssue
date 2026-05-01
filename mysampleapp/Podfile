@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+source 'https://github.com/CocoaPods/Specs.git'
+target 'mysampleapp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for mysampleapp
+  # 集成音频 SDK
+    pod 'ShengwangAudio_iOS', '4.6.2'
+    # 选择性集成音频 SDK 中的基础库和指定动态库
+    pod 'ShengwangAudio_iOS', '4.6.2', :subspecs => ['RtcBasic', 'AINS', 'AudioBeauty']
+
+
+end

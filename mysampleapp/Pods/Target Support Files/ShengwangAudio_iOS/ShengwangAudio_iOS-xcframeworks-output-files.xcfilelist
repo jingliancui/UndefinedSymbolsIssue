@@ -1,0 +1,11 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ShengwangAudio_iOS/AIAEC/AgoraAiEchoCancellationExtension.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ShengwangAudio_iOS/AIAECLL/AgoraAiEchoCancellationLLExtension.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ShengwangAudio_iOS/AINS/AgoraAiNoiseSuppressionExtension.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ShengwangAudio_iOS/AINSLL/AgoraAiNoiseSuppressionLLExtension.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ShengwangAudio_iOS/AudioBeauty/AgoraAudioBeautyExtension.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ShengwangAudio_iOS/LipSync/AgoraLipSyncExtension.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ShengwangAudio_iOS/RtcBasic/AgoraRtcKit.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ShengwangAudio_iOS/RtcBasic/Agorafdkaac.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ShengwangAudio_iOS/RtcBasic/Agoraffmpeg.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ShengwangAudio_iOS/RtcBasic/AgoraSoundTouch.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ShengwangAudio_iOS/SpatialAudio/AgoraSpatialAudioExtension.framework

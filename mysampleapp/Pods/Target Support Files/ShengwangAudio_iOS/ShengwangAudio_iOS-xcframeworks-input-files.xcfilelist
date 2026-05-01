@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/ShengwangAudio_iOS/ShengwangAudio_iOS-xcframeworks.sh
+${PODS_ROOT}/ShengwangAudio_iOS/AgoraAiEchoCancellationExtension.xcframework
+${PODS_ROOT}/ShengwangAudio_iOS/AgoraAiEchoCancellationLLExtension.xcframework
+${PODS_ROOT}/ShengwangAudio_iOS/AgoraAiNoiseSuppressionExtension.xcframework
+${PODS_ROOT}/ShengwangAudio_iOS/AgoraAiNoiseSuppressionLLExtension.xcframework
+${PODS_ROOT}/ShengwangAudio_iOS/AgoraAudioBeautyExtension.xcframework
+${PODS_ROOT}/ShengwangAudio_iOS/AgoraLipSyncExtension.xcframework
+${PODS_ROOT}/ShengwangAudio_iOS/AgoraRtcKit.xcframework
+${PODS_ROOT}/ShengwangAudio_iOS/Agorafdkaac.xcframework
+${PODS_ROOT}/ShengwangAudio_iOS/Agoraffmpeg.xcframework
+${PODS_ROOT}/ShengwangAudio_iOS/AgoraSoundTouch.xcframework
+${PODS_ROOT}/ShengwangAudio_iOS/AgoraSpatialAudioExtension.xcframework

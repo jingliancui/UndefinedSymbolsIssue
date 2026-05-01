@@ -1,0 +1,39 @@
+PODS:
+  - ShengwangAudio_iOS (4.6.2):
+    - ShengwangAudio_iOS/AIAEC (= 4.6.2)
+    - ShengwangAudio_iOS/AIAECLL (= 4.6.2)
+    - ShengwangAudio_iOS/AINS (= 4.6.2)
+    - ShengwangAudio_iOS/AINSLL (= 4.6.2)
+    - ShengwangAudio_iOS/AudioBeauty (= 4.6.2)
+    - ShengwangAudio_iOS/LipSync (= 4.6.2)
+    - ShengwangAudio_iOS/RtcBasic (= 4.6.2)
+    - ShengwangAudio_iOS/SpatialAudio (= 4.6.2)
+  - ShengwangAudio_iOS/AIAEC (4.6.2)
+  - ShengwangAudio_iOS/AIAECLL (4.6.2)
+  - ShengwangAudio_iOS/AINS (4.6.2)
+  - ShengwangAudio_iOS/AINSLL (4.6.2)
+  - ShengwangAudio_iOS/AudioBeauty (4.6.2)
+  - ShengwangAudio_iOS/LipSync (4.6.2)
+  - ShengwangAudio_iOS/RtcBasic (4.6.2):
+    - ShengwangInfra_iOS (= 1.3.5)
+  - ShengwangAudio_iOS/SpatialAudio (4.6.2)
+  - ShengwangInfra_iOS (1.3.5)
+
+DEPENDENCIES:
+  - ShengwangAudio_iOS (= 4.6.2)
+  - ShengwangAudio_iOS/AINS (= 4.6.2)
+  - ShengwangAudio_iOS/AudioBeauty (= 4.6.2)
+  - ShengwangAudio_iOS/RtcBasic (= 4.6.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ShengwangAudio_iOS
+    - ShengwangInfra_iOS
+
+SPEC CHECKSUMS:
+  ShengwangAudio_iOS: bca26dbb481435e740c13eda24ca8176cacbb79d
+  ShengwangInfra_iOS: 0ae2d429ec428cdbaebb39ac883ec64c5c20f7bb
+
+PODFILE CHECKSUM: 10c3da746c70ece81fbfcd7d49a9f28567d1e29b
+
+COCOAPODS: 1.16.2
